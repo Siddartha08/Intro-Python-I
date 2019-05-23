@@ -14,4 +14,6 @@ z = "I like turtles!"
 
 # Use the 'format' string method to print the same thing
 
+print('x is %d, y is %.2f, z is "%s"' % (x, (round(y,2)), z) )
+
 # Finally, print the same thing using an f-string
